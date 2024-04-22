@@ -8,8 +8,8 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'about',
-        loadChildren: () => import('../about/about.module').then(m => m.AboutPageModule)
+        path: 'transactions',
+        loadChildren: () => import('../transactions/transactions.module').then(m => m.TransactionsPageModule)
       },
       {
         path: 'photos',
@@ -17,14 +17,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/about',
+        redirectTo: '/tabs/transactions',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/about',
+    redirectTo: '/tabs/transactions',
     pathMatch: 'full'
   }
 ];
