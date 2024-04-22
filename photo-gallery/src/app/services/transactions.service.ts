@@ -31,9 +31,29 @@ export class TransactionsService {
     amount: 120.39,
     currency: "GBP"
   }, {
-    timestampUtc: new Date("1968-11-20T00:00:00"),
+    timestampUtc: new Date("2023-11-20T00:00:00"),
     vendor: "Rent",
     amount: 1400.00,
+    currency: "GBP"
+  }, {
+    timestampUtc: new Date("2023-11-24T00:00:00"),
+    vendor: "Pub",
+    amount: 12.00,
+    currency: "GBP"
+  }, {
+    timestampUtc: new Date("2023-11-24T00:00:00"),
+    vendor: "Golf",
+    amount: 40.00,
+    currency: "GBP"
+  }, {
+    timestampUtc: new Date("2023-11-28T00:00:00"),
+    vendor: "Party (venue)",
+    amount: 100.00,
+    currency: "GBP"
+  }, {
+    timestampUtc: new Date("2023-11-28T00:00:00"),
+    vendor: "Party (cake)",
+    amount: 20.00,
     currency: "GBP"
   }];
 
